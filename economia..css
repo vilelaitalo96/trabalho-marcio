@@ -70,39 +70,48 @@ background-color: #e0e0e0;
     background-color: #e0e0e0;
 }
 
+   h1 {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
 
-.cultura{
-max-width: 800px;
-margin: 0 auto 40px auto;
-font-size: 1rem;
+    p {
+        text-align: justify;
+        margin-bottom: 15px;
+    }
 
-}
 
-.h1{
-font-size: 30px;
-    max-width: 700px;
-    margin: 0 auto;
-}
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        gap: 20px;
+    }
 
-.p{
-    max-width: 700px;
-  margin: 0 auto 30px auto;
-  font-size: 1rem;  
-}
+    .isso {
+        flex: 1;
+       
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+    }
 
-.fotos{
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 20px;
+    .isso img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
 
-}
+    .isso h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
 
-.marcio{
-    
-   padding: 100 px;
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 3rem;
-    
-}
+    @media (max-width: 900px) {
+        .container {
+            flex-direction: column;
+        }
+    }

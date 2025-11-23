@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -70,28 +69,40 @@ background-color: #e0e0e0;
 .home ul li a:hover {
     background-color: #e0e0e0;
 }
-.foto{
+
+
+.cultura{
+max-width: 800px;
+margin: 0 auto 40px auto;
+font-size: 1rem;
+
+}
+
+.h1{
+font-size: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.p{
+    max-width: 700px;
+  margin: 0 auto 30px auto;
+  font-size: 1rem;  
+}
+
+.fotos{
     width: 400px;
     display: block;
     margin: 0 auto;
-    border-radius: 6px;
-
+    border-radius: 20px;
 
 }
-.h1{
-    font-size: 30px;
-    max-width: 700px;
-    margin: 0 auto;
+
+.marcio{
     text-align: center;
+   padding: 100 px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 3rem;
+    
 }
-
-
-.p{
-    font-size: 16px;
-    text-align: justify;
-    max-width: 700px;
-    margin: 10px auto;
-}
-
-
-
