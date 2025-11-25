@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: open sans , sans-serif;
+    font-family: open sans, sans-serif;
 }
 
 body {
@@ -10,43 +10,44 @@ body {
 
 }
 
+
 .header {
-background-color: blue;
-color: rgb(255, 255, 255);
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px 30px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
 }
 
 .logo {
-display: flex;
-align-items: center;
-gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .Explorando {
-font-size: 1.2rem;
+    font-size: 1.2rem;
 
 }
 
-.bandeira{
-width: 30px;
+.bandeira {
+    width: 30px;
 }
 
-.home ul li a{ 
-background-color: white;
-color: black;
-text-decoration: none;
-padding: 5px 12px;
-border-radius: 15px;
-font-weight: bold;
-font-size: 0.9rem;
-transition: 0.3;    
+.home ul li a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: 0.3;
 }
 
 .home ul li a:hover {
-background-color: #e0e0e0;
+    background-color: #e0e0e0;
 }
 
 .home ul {
@@ -70,48 +71,39 @@ background-color: #e0e0e0;
     background-color: #e0e0e0;
 }
 
-   h1 {
-        text-align: center;
-        font-weight: bold;
-        margin-bottom: 30px;
-    }
 
-    p {
-        text-align: justify;
-        margin-bottom: 15px;
-    }
+.h1 {
+    text-align: center;
+}
+
+.primeiro {
+    padding: 30px;
+    text-align: center;
+}
 
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 30px;
-        gap: 20px;
-    }
 
-    .isso {
-        flex: 1;
-       
-        padding: 15px;
-        border-radius: 10px;
-        text-align: center;
-    }
+.nice {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
 
-    .isso img {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-        margin-top: 10px;
-        border-radius: 5px;
-    }
+}
 
-    .isso h2 {
-        margin-bottom: 10px;
-        font-size: 18px;
-    }
+.texto {
+    width: 250px;
+    text-align: center;
+    font-family: open sans, sans-serif;
 
-    @media (max-width: 900px) {
-        .container {
-            flex-direction: column;
-        }
-    }
+}
+
+.texto img {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.p{
+    text-align: center;
+}
