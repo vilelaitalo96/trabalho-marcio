@@ -129,22 +129,17 @@ button {
     font-weight: bold;
 }
 
-.enviar {
-    background-color: white;
-    color: black;
-}
 
-.cadastro {
 
-    background-color: white;
-    color: black;
-
-}
-
-.cadastro {
+.jogo{
     border: none;
     padding: 9px 9px;
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
+    
+    background-color: white;
+    color: black;
 }
+
+

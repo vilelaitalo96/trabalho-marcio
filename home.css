@@ -1,9 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: open sans , sans-serif;
+    font-family: open sans, sans-serif;
 }
 
 body {
@@ -12,42 +11,42 @@ body {
 }
 
 .header {
-background-color: blue;
-color: rgb(255, 255, 255);
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px 30px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
 }
 
 .logo {
-display: flex;
-align-items: center;
-gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .Explorando {
-font-size: 1.2rem;
+    font-size: 1.2rem;
 
 }
 
-.bandeira{
-width: 30px;
+.bandeira {
+    width: 30px;
 }
 
-.home ul li a{ 
-background-color: white;
-color: black;
-text-decoration: none;
-padding: 5px 12px;
-border-radius: 15px;
-font-weight: bold;
-font-size: 0.9rem;
-transition: 0.3;    
+.home ul li a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: 0.3;
 }
 
 .home ul li a:hover {
-background-color: #e0e0e0;
+    background-color: #e0e0e0;
 }
 
 .home ul {
@@ -70,7 +69,8 @@ background-color: #e0e0e0;
 .home ul li a:hover {
     background-color: #e0e0e0;
 }
-.foto{
+
+.foto {
     width: 400px;
     display: block;
     margin: 0 auto;
@@ -78,7 +78,8 @@ background-color: #e0e0e0;
 
 
 }
-.h1{
+
+.h1 {
     font-size: 30px;
     max-width: 700px;
     margin: 0 auto;
@@ -86,12 +87,9 @@ background-color: #e0e0e0;
 }
 
 
-.p{
+.p {
     font-size: 16px;
     text-align: justify;
     max-width: 700px;
     margin: 10px auto;
 }
-
-
-
